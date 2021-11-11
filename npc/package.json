@@ -1,0 +1,11 @@
+{
+  "name": "npc",
+  "version": "0.26.10",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-docker-image": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

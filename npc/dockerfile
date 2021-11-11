@@ -1,0 +1,8 @@
+FROM alpine
+
+COPY ./npc /npc/npc
+
+ENV NPC_SERVER_ADDR=value \
+    NPC_SERVER_VKEY=value
+
+CMD ["/npc/npc"]
